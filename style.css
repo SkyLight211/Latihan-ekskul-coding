@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  diplay: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar fixed */
+header {
+  position: fixed;
+  top: 0;
+  left: ;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content : center; /* menu di tengah */
+  align-itrms: center;
+  background-color: #333
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: vold;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  color: #ffd700;
+}
+
+
+main {
+  flex: 1;
+  padding: 100px 20px 20px;
+}
